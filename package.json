@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "hello-world",
   "version": "1.0.0",
   "description": "---fill-this---",
   "main": "index.js",
@@ -28,6 +28,13 @@
     "eslint-config-google": "^0.14.0",
     "jscpd": "^3.4.5",
     "mocha": "^9.2.2",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
